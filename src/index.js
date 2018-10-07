@@ -9,7 +9,7 @@ module.exports = function count(s, pairs) {
         N*=Math.pow(pair[0],pair[1]);
 	}
 	
-	if( N > 1000000) return 0;
+	if( N > 10000) return 0;
 	
 	while(k < N)
 	{
